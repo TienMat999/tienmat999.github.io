@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
-  <head><script src="/000037-AWSCloudFormation/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=000037-AWSCloudFormation/livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.127.0">
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
-    <link rel="icon" href="/000037-AWSCloudFormation/images/favicon.png" type="image/png">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
 
     <title>Create Lambda Function :: AWS CLOUDFORMATION</title>
 
     
-    <link href="/000037-AWSCloudFormation/css/nucleus.css?1725786021" rel="stylesheet">
-    <link href="/000037-AWSCloudFormation/css/fontawesome-all.min.css?1725786021" rel="stylesheet">
-    <link href="/000037-AWSCloudFormation/css/hybrid.css?1725786021" rel="stylesheet">
-    <link href="/000037-AWSCloudFormation/css/featherlight.min.css?1725786021" rel="stylesheet">
-    <link href="/000037-AWSCloudFormation/css/perfect-scrollbar.min.css?1725786021" rel="stylesheet">
-    <link href="/000037-AWSCloudFormation/css/auto-complete.css?1725786021" rel="stylesheet">
-    <link href="/000037-AWSCloudFormation/css/atom-one-dark-reasonable.css?1725786021" rel="stylesheet">
-    <link href="/000037-AWSCloudFormation/css/theme.css?1725786021" rel="stylesheet">
-    <link href="/000037-AWSCloudFormation/css/hugo-theme.css?1725786021" rel="stylesheet">
+    <link href="/css/nucleus.css?1725786459" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1725786459" rel="stylesheet">
+    <link href="/css/hybrid.css?1725786459" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1725786459" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1725786459" rel="stylesheet">
+    <link href="/css/auto-complete.css?1725786459" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1725786459" rel="stylesheet">
+    <link href="/css/theme.css?1725786459" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1725786459" rel="stylesheet">
     
-    <link href="/000037-AWSCloudFormation/css/theme-workshop.css?1725786021" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1725786459" rel="stylesheet">
     
     
 
-    <script src="/000037-AWSCloudFormation/js/jquery-3.3.1.min.js?1725786021"></script>
+    <script src="/js/jquery-3.3.1.min.js?1725786459"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/">
+  <body class="" data-url="/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/000037-AWSCloudFormation/js/lunr.min.js?1725786021"></script>
-<script type="text/javascript" src="/000037-AWSCloudFormation/js/auto-complete.js?1725786021"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1725786459"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1725786459"></script>
 <script type="text/javascript">
     
-        var baseurl = "http:\/\/minhtien088.github.io\/000037-AWSCloudFormation\/";
+        var baseurl = "\/\/localhost:1313\/";
     
 </script>
-<script type="text/javascript" src="/000037-AWSCloudFormation/js/search.js?1725786021"></script>
+<script type="text/javascript" src="/js/search.js?1725786459"></script>
 
     
   </div>
@@ -82,12 +82,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/1-introduce/" title="Introduction" class="dd-item 
+    <li data-nav-id="/1-introduce/" title="Introduction" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/1-introduce/">
+      <a href="/1-introduce/">
            <b> 1. </b> Introduction
           
             <i class="fas fa-check read-icon"></i>
@@ -108,12 +108,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/2-prerequiste/" title="Preparation steps" class="dd-item 
+    <li data-nav-id="/2-prerequiste/" title="Preparation steps" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/2-prerequiste/">
+      <a href="/2-prerequiste/">
            <b> 2. </b> Preparation steps
           
             <i class="fas fa-check read-icon"></i>
@@ -139,12 +139,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/2-prerequiste/2.1-createiamrole/" title="Create IAM Role" class="dd-item 
+    <li data-nav-id="/2-prerequiste/2.1-createiamrole/" title="Create IAM Role" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/2-prerequiste/2.1-createiamrole/">
+      <a href="/2-prerequiste/2.1-createiamrole/">
            <b> 2.1 </b> Create IAM Role
           
             <i class="fas fa-check read-icon"></i>
@@ -167,12 +167,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/2-prerequiste/2.2-createiamuser/" title="Create IAM User" class="dd-item 
+    <li data-nav-id="/2-prerequiste/2.2-createiamuser/" title="Create IAM User" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/2-prerequiste/2.2-createiamuser/">
+      <a href="/2-prerequiste/2.2-createiamuser/">
            <b> 2.2 </b> Create IAM User
           
             <i class="fas fa-check read-icon"></i>
@@ -195,12 +195,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/2-prerequiste/2.3-switchrole/" title="Switch Role" class="dd-item 
+    <li data-nav-id="/2-prerequiste/2.3-switchrole/" title="Switch Role" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/2-prerequiste/2.3-switchrole/">
+      <a href="/2-prerequiste/2.3-switchrole/">
            <b> 2.3 </b> Switch Role
           
             <i class="fas fa-check read-icon"></i>
@@ -230,12 +230,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/3-basiccloudformation/" title="Basic CloudFormation" class="dd-item 
+    <li data-nav-id="/3-basiccloudformation/" title="Basic CloudFormation" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/3-basiccloudformation/">
+      <a href="/3-basiccloudformation/">
            <b> 3. </b> Basic CloudFormation
           
             <i class="fas fa-check read-icon"></i>
@@ -261,12 +261,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/3-basiccloudformation/3.1-usingcloudshell/" title="Using CloudShell" class="dd-item 
+    <li data-nav-id="/3-basiccloudformation/3.1-usingcloudshell/" title="Using CloudShell" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/3-basiccloudformation/3.1-usingcloudshell/">
+      <a href="/3-basiccloudformation/3.1-usingcloudshell/">
            <b> 3.1. </b> Using CloudShell
           
             <i class="fas fa-check read-icon"></i>
@@ -289,12 +289,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/3-basiccloudformation/3.2-createcloudformationtemplate/" title="Create CloudFormation Template" class="dd-item 
+    <li data-nav-id="/3-basiccloudformation/3.2-createcloudformationtemplate/" title="Create CloudFormation Template" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/3-basiccloudformation/3.2-createcloudformationtemplate/">
+      <a href="/3-basiccloudformation/3.2-createcloudformationtemplate/">
            <b> 3.2. </b> Create CloudFormation Template
           
             <i class="fas fa-check read-icon"></i>
@@ -324,12 +324,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/4-advancedcloudformation/" title="Advanced CloudFormation" class="dd-item 
+    <li data-nav-id="/4-advancedcloudformation/" title="Advanced CloudFormation" class="dd-item 
         parent
         
         
         ">
-      <a href="/000037-AWSCloudFormation/4-advancedcloudformation/">
+      <a href="/4-advancedcloudformation/">
            <b> 4. </b> Advanced CloudFormation
           
             <i class="fas fa-check read-icon"></i>
@@ -355,12 +355,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/" title="Custom Resources" class="dd-item 
+    <li data-nav-id="/4-advancedcloudformation/4.1-customresources/" title="Custom Resources" class="dd-item 
         parent
         
         
         ">
-      <a href="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/">
+      <a href="/4-advancedcloudformation/4.1-customresources/">
            <b> 4.1 </b> Custom Resources
           
             <i class="fas fa-check read-icon"></i>
@@ -386,12 +386,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/" title="Create Lambda Function" class="dd-item 
+    <li data-nav-id="/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/" title="Create Lambda Function" class="dd-item 
         
         active
         
         ">
-      <a href="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/">
+      <a href="/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/">
            <b> 4.1.1 </b> Create Lambda Function
           
             <i class="fas fa-check read-icon"></i>
@@ -414,12 +414,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/" title="Create Stack" class="dd-item 
+    <li data-nav-id="/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/" title="Create Stack" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/">
+      <a href="/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/">
            <b> 4.1.2 </b> Create Stack
           
             <i class="fas fa-check read-icon"></i>
@@ -442,12 +442,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/" title="Connect EC2 Instance" class="dd-item 
+    <li data-nav-id="/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/" title="Connect EC2 Instance" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/">
+      <a href="/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/">
            <b> 4.1.3 </b> Connect EC2 Instance
           
             <i class="fas fa-check read-icon"></i>
@@ -479,12 +479,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/4-advancedcloudformation/4.2-mappingandstackset/" title="Mappings and Stacksets" class="dd-item 
+    <li data-nav-id="/4-advancedcloudformation/4.2-mappingandstackset/" title="Mappings and Stacksets" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/4-advancedcloudformation/4.2-mappingandstackset/">
+      <a href="/4-advancedcloudformation/4.2-mappingandstackset/">
            <b> 4.2 </b> Mappings and Stacksets
           
             <i class="fas fa-check read-icon"></i>
@@ -507,12 +507,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/4-advancedcloudformation/4.3-driftdetection/" title="Drift Detection" class="dd-item 
+    <li data-nav-id="/4-advancedcloudformation/4.3-driftdetection/" title="Drift Detection" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/4-advancedcloudformation/4.3-driftdetection/">
+      <a href="/4-advancedcloudformation/4.3-driftdetection/">
            <b> 4.3 </b> Drift Detection
           
             <i class="fas fa-check read-icon"></i>
@@ -542,12 +542,12 @@
  
   
     
-    <li data-nav-id="/000037-AWSCloudFormation/5-cleanup/" title="Clean up resources" class="dd-item 
+    <li data-nav-id="/5-cleanup/" title="Clean up resources" class="dd-item 
         
         
         
         ">
-      <a href="/000037-AWSCloudFormation/5-cleanup/">
+      <a href="/5-cleanup/">
            <b> 5. </b> Clean up resources
           
             <i class="fas fa-check read-icon"></i>
@@ -599,7 +599,7 @@
                   
                     
                     
-                      <option id="en" value="http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/" selected>English</option>
+                      <option id="en" value="//localhost:1313/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/" selected>English</option>
                     
                   
               
@@ -613,7 +613,7 @@
                   
                     
                     
-                      <option id="vi" value="http://minhtien088.github.io/000037-AWSCloudFormation/vi/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/">Tiếng Việt</option>
+                      <option id="vi" value="//localhost:1313/vi/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/">Tiếng Việt</option>
                     
                   
               
@@ -709,7 +709,7 @@
             
           
           
-            <a href='/000037-AWSCloudFormation/'>AWS CloudFormation</a> > <a href='/000037-AWSCloudFormation/4-advancedcloudformation/'>Advanced CloudFormation</a> > <a href='/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/'>Custom Resources</a> > Create Lambda Function
+            <a href='/'>AWS CloudFormation</a> > <a href='/4-advancedcloudformation/'>Advanced CloudFormation</a> > <a href='/4-advancedcloudformation/4.1-customresources/'>Custom Resources</a> > Create Lambda Function
           
         
           
@@ -764,7 +764,7 @@
 <li>Find <strong>IAM</strong></li>
 <li>Select <strong>IAM</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0001-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0001-createlambdafunction.png?width=5120px"></p>
 <ol start="2">
 <li>In the <strong>IAM</strong> interface</li>
 </ol>
@@ -772,7 +772,7 @@
 <li>Select <strong>Policies</strong></li>
 <li>Select <strong>Create policy</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0002-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0002-createlambdafunction.png?width=5120px"></p>
 <ol start="3">
 <li>In the <strong>Create policy</strong> interface</li>
 </ol>
@@ -814,7 +814,7 @@
 </span></span></code></pre></div><ul>
 <li>Select <strong>Next</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0003-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0003-createlambdafunction.png?width=5120px"></p>
 <ol start="4">
 <li>In <strong>Review and create</strong> step</li>
 </ol>
@@ -822,7 +822,7 @@
 <li><strong>Policy name</strong>, enter <code>ssh-key-gen-policy</code></li>
 <li>View services that are <strong>Allow</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0004-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0004-createlambdafunction.png?width=5120px"></p>
 <ol start="5">
 <li>In the <strong>Add tags</strong> section</li>
 </ol>
@@ -831,11 +831,11 @@
 <li>Enter <strong>Value</strong>, example: <code>CloudFormationWorkshop</code></li>
 <li>Select <strong>Create policy</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0005-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0005-createlambdafunction.png?width=5120px"></p>
 <ol start="6">
 <li>Create the <strong>ssh-key-gen-policy</strong> policy successfully</li>
 </ol>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0006-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0006-createlambdafunction.png?width=5120px"></p>
 <ol start="7">
 <li>In the <strong>IAM</strong> interface</li>
 </ol>
@@ -843,7 +843,7 @@
 <li>Select <strong>Roles</strong></li>
 <li>Select <strong>Create role</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0007-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0007-createlambdafunction.png?width=5120px"></p>
 <ol start="8">
 <li>In <strong>Select trusted entity</strong> step</li>
 </ol>
@@ -852,7 +852,7 @@
 <li><strong>User case</strong>, select <strong>Lambda</strong></li>
 <li>Select <strong>Next</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0008-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0008-createlambdafunction.png?width=5120px"></p>
 <ol start="9">
 <li>In <strong>Add permissions</strong> step</li>
 </ol>
@@ -860,14 +860,14 @@
 <li>Find and select the <strong>ssh-key-gen-policy</strong> policy</li>
 <li>Select <strong>Next</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/0009-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/0009-createlambdafunction.png?width=5120px"></p>
 <ol start="10">
 <li>In the <strong>Role details</strong> interface</li>
 </ol>
 <ul>
 <li><strong>Role name</strong>, enter <code>ssh-key-gen-role</code></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00010-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00010-createlambdafunction.png?width=5120px"></p>
 <ol start="11">
 <li>Double check and in the <strong>Add tags</strong> section</li>
 </ol>
@@ -876,7 +876,7 @@
 <li>Enter <strong>Value</strong>, example: <code>CloudFormationWorkshop</code></li>
 <li>Select <strong>Create role</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00011-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00011-createlambdafunction.png?width=5120px"></p>
 <ol start="12">
 <li>In the <strong>IAM</strong> interface</li>
 </ol>
@@ -884,7 +884,7 @@
 <li>Find <strong>ssh-key-gen-role</strong></li>
 <li>View created roles</li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00012-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00012-createlambdafunction.png?width=5120px"></p>
 <ol start="13">
 <li>In the <a href="https://console.aws.amazon.com/console/">AWS Management Console</a> interface</li>
 </ol>
@@ -892,7 +892,7 @@
 <li>Find <strong>Lambda</strong></li>
 <li>Select <strong>Lambda</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00013-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00013-createlambdafunction.png?width=5120px"></p>
 <ol start="14">
 <li>In the <strong>AWS Lambda</strong> interface</li>
 </ol>
@@ -900,7 +900,7 @@
 <li>Select <strong>Functions</strong></li>
 <li>Select <strong>Create function</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00014-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00014-createlambdafunction.png?width=5120px"></p>
 <ol start="15">
 <li>In the <strong>Create function</strong> interface</li>
 </ol>
@@ -910,7 +910,7 @@
 <li><strong>Run time</strong>, select <strong>Python 3.9</strong></li>
 <li>Select <strong>x86_64</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00015-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00015-createlambdafunction.png?width=5120px"></p>
 <ol start="16">
 <li>In the <strong>Permissions</strong> interface</li>
 </ol>
@@ -918,7 +918,7 @@
 <li>Select <strong>Use an existing role</strong></li>
 <li>Select <strong>ssh-key-gen-role</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00016-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00016-createlambdafunction.png?width=5120px"></p>
 <ol start="17">
 <li>In the function code editing content, enter the following code content:</li>
 </ol>
@@ -1143,19 +1143,19 @@
 </span></span></code></pre></div><ul>
 <li>Edit the code and select <strong>Deploy</strong></li>
 </ul>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00017-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00017-createlambdafunction.png?width=5120px"></p>
 <ol start="18">
 <li>After saving the Function, go to <strong>Configuration</strong> tab, select <strong>General configuration</strong> section and hit <strong>Edit</strong> button</li>
 </ol>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00019-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00019-createlambdafunction.png?width=5120px"></p>
 <ol start="19">
 <li>We will increase the timeout of the Lambda function to avoid errors. Set the timeout to <strong>15 minutes</strong> then hit the <strong>Save</strong> button</li>
 </ol>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00020-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00020-createlambdafunction.png?width=5120px"></p>
 <ol start="20">
 <li>After increase the timeout of the Function, copy the Function ARN to a certain memo. This information will be used later in the tutorial.</li>
 </ol>
-<p><img alt="Create Lambda Function" src="000037-AWSCloudFormation/images/4.advancedcloudformation/00018-createlambdafunction.png?width=5120px"></p>
+<p><img alt="Create Lambda Function" src="/000037-AWSCloudFormation/images/4.advancedcloudformation/00018-createlambdafunction.png?width=5120px"></p>
 
 
 
@@ -1473,10 +1473,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/" title="Custom Resources"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/4-advancedcloudformation/4.1-customresources/" title="Custom Resources"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/" title="Create Stack" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/" title="Create Stack" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1486,19 +1486,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/000037-AWSCloudFormation/js/clipboard.min.js?1725786021"></script>
-    <script src="/000037-AWSCloudFormation/js/perfect-scrollbar.min.js?1725786021"></script>
-    <script src="/000037-AWSCloudFormation/js/perfect-scrollbar.jquery.min.js?1725786021"></script>
-    <script src="/000037-AWSCloudFormation/js/jquery.sticky.js?1725786021"></script>
-    <script src="/000037-AWSCloudFormation/js/featherlight.min.js?1725786021"></script>
-    <script src="/000037-AWSCloudFormation/js/highlight.pack.js?1725786021"></script>
+    <script src="/js/clipboard.min.js?1725786459"></script>
+    <script src="/js/perfect-scrollbar.min.js?1725786459"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1725786459"></script>
+    <script src="/js/jquery.sticky.js?1725786459"></script>
+    <script src="/js/featherlight.min.js?1725786459"></script>
+    <script src="/js/highlight.pack.js?1725786459"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/000037-AWSCloudFormation/js/modernizr.custom-3.6.0.js?1725786021"></script>
-    <script src="/000037-AWSCloudFormation/js/learn.js?1725786021"></script>
-    <script src="/000037-AWSCloudFormation/js/hugo-learn.js?1725786021"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1725786459"></script>
+    <script src="/js/learn.js?1725786459"></script>
+    <script src="/js/hugo-learn.js?1725786459"></script>
 
-    <link href="/000037-AWSCloudFormation/mermaid/mermaid.css?1725786021" rel="stylesheet" />
-    <script src="/000037-AWSCloudFormation/mermaid/mermaid.js?1725786021"></script>
+    <link href="/mermaid/mermaid.css?1725786459" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1725786459"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
