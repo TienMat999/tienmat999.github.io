@@ -2,232 +2,232 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.1-createiamrole/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/2-prerequiste/2.1-createiamrole/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.1-createiamrole/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/2-prerequiste/2.1-createiamrole/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.1-createiamrole/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/2-prerequiste/2.1-createiamrole/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.1-createlambdafunction/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-advancedcloudformation/4.1-customresources/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-advancedcloudformation/4.1-customresources/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/4-advancedcloudformation/4.1-customresources/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-advancedcloudformation/4.1-customresources/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/"
                 />
   </url><url>
-    <loc>//localhost:1313/1-introduce/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/1-introduce/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/1-introduce/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/1-introduce/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/1-introduce/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/1-introduce/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-basiccloudformation/3.1-usingcloudshell/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/3-basiccloudformation/3.1-usingcloudshell/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-basiccloudformation/3.1-usingcloudshell/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/3-basiccloudformation/3.1-usingcloudshell/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-basiccloudformation/3.1-usingcloudshell/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/3-basiccloudformation/3.1-usingcloudshell/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-basiccloudformation/3.2-createcloudformationtemplate/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/3-basiccloudformation/3.2-createcloudformationtemplate/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-basiccloudformation/3.2-createcloudformationtemplate/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/3-basiccloudformation/3.2-createcloudformationtemplate/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-basiccloudformation/3.2-createcloudformationtemplate/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/3-basiccloudformation/3.2-createcloudformationtemplate/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.2-createiamuser/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/2-prerequiste/2.2-createiamuser/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.2-createiamuser/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/2-prerequiste/2.2-createiamuser/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.2-createiamuser/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/2-prerequiste/2.2-createiamuser/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.2-createstack/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-advancedcloudformation/4.2-mappingandstackset/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.2-mappingandstackset/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-advancedcloudformation/4.2-mappingandstackset/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/4-advancedcloudformation/4.2-mappingandstackset/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-advancedcloudformation/4.2-mappingandstackset/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.2-mappingandstackset/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/2-prerequiste/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/2-prerequiste/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/2-prerequiste/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-basiccloudformation/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/3-basiccloudformation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-basiccloudformation/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/3-basiccloudformation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-basiccloudformation/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/3-basiccloudformation/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.1-customresources/4.1.3-connectec2instance/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-advancedcloudformation/4.3-driftdetection/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.3-driftdetection/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-advancedcloudformation/4.3-driftdetection/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/4-advancedcloudformation/4.3-driftdetection/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-advancedcloudformation/4.3-driftdetection/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/4.3-driftdetection/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.3-switchrole/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/2-prerequiste/2.3-switchrole/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.3-switchrole/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/2-prerequiste/2.3-switchrole/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.3-switchrole/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/2-prerequiste/2.3-switchrole/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-advancedcloudformation/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-advancedcloudformation/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/4-advancedcloudformation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-advancedcloudformation/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/4-advancedcloudformation/"
                 />
   </url><url>
-    <loc>//localhost:1313/5-cleanup/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/5-cleanup/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/5-cleanup/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/5-cleanup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/5-cleanup/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/5-cleanup/"
                 />
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/categories/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/categories/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://minhtien088.github.io/000037-AWSCloudFormation/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/tags/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/"
+                href="http://minhtien088.github.io/000037-AWSCloudFormation/tags/"
                 />
   </url>
 </urlset>
