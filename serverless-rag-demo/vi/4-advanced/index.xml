@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>(Nâng cao) Sử dụng cơ sở kiến thức Amazon Bedrock có sẵn on Serverless RAG demo</title>
+    <link>http://minhtien088.github.io/serverless-rag-demo/vi/4-advanced/</link>
+    <description>Recent content in (Nâng cao) Sử dụng cơ sở kiến thức Amazon Bedrock có sẵn on Serverless RAG demo</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://minhtien088.github.io/serverless-rag-demo/vi/4-advanced/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

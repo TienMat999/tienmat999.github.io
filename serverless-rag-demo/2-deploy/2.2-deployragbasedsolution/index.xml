@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deploy the RAG based Solution on Serverless RAG demo</title>
+    <link>http://minhtien088.github.io/serverless-rag-demo/2-deploy/2.2-deployragbasedsolution/</link>
+    <description>Recent content in Deploy the RAG based Solution on Serverless RAG demo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://minhtien088.github.io/serverless-rag-demo/2-deploy/2.2-deployragbasedsolution/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
