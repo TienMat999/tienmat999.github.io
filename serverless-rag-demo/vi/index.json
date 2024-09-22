@@ -4,7 +4,7 @@
 	"title": "Chuẩn bị",
 	"tags": [],
 	"description": "",
-	"content": "Chuẩn bị Một tài khoản AWS Bạn nên có quyền truy cập vào các mô hình Anthropic Claude-3 Haiku/Sonnet trên Amazon Bedrock. Đối với RAG, bạn nên có quyền truy cập (ít nhất) vào mô hình Cohere English Embed trên Amazon Bedrock Region có hỗ trợ Amazon Bedrock Region có hỗ trợ Amazon OpenSearch serverless (AOSS) Các dịch vụ quen thuộc AWS IAM AWS Lambda Amazon API Gateway Amazon OpenSearch serverless "
+	"content": "Chuẩn bị Một tài khoản AWS Bạn nên có quyền truy cập vào các mô hình Anthropic Claude-3 Haiku/Sonnet trên Amazon Bedrock. Đối với RAG, bạn nên có quyền truy cập (ít nhất) vào mô hình Cohere English Embed trên Amazon Bedrock Region có hỗ trợ Amazon Bedrock Region có hỗ trợ Amazon OpenSearch serverless (AOSS) Các dịch vụ quen thuộc AWS IAM AWS Lambda Amazon API Gateway Amazon OpenSearch serverless Các workshops nên thực hiện qua Creating your first AWS account Administration of access rights with AWS IAM (Identity and Access Management) Book store - Serverless Book store Intro - Writing first functions Serverless - Build Frontend to call API Gateway Serverless - Authentication with Amazon Cognito "
 },
 {
 	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/5-cleanup/5.1-cloudformation/",

@@ -25,7 +25,7 @@
 	"title": "Prerequisites",
 	"tags": [],
 	"description": "",
-	"content": "Prerequisites An AWS account You should have access to Anthropic Claude-3 Haiku/Sonnet models on Amazon Bedrock For RAG, you should have access to (at least) Cohere English Embed model on Amazon Bedrock Amazon Bedrock supported regions Amazon OpenSearch serverless (AOSS) supported regions Familiarity with below Services AWS IAM AWS Lambda Amazon API Gateway Amazon OpenSearch serverless "
+	"content": "Prerequisites An AWS account You should have access to Anthropic Claude-3 Haiku/Sonnet models on Amazon Bedrock For RAG, you should have access to (at least) Cohere English Embed model on Amazon Bedrock Amazon Bedrock supported regions Amazon OpenSearch serverless (AOSS) supported regions Familiarity with below Services AWS IAM AWS Lambda Amazon API Gateway Amazon OpenSearch serverless Workshops should be done Creating your first AWS account Administration of access rights with AWS IAM (Identity and Access Management) Book store - Serverless Book store Intro - Writing first functions Serverless - Build Frontend to call API Gateway Serverless - Authentication with Amazon Cognito "
 },
 {
 	"uri": "http://minhtien088.github.io/serverless-rag-demo/",
