@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amazon Cognito on Serverless RAG demo</title>
-    <link>http://minhtien088.github.io/serverless-rag-demo/5-cleanup/5.2-cognito/</link>
+    <link>http://tienmat999.github.io/serverless-rag-demo/5-cleanup/5.2-cognito/</link>
     <description>Recent content in Amazon Cognito on Serverless RAG demo</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://minhtien088.github.io/serverless-rag-demo/5-cleanup/5.2-cognito/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tienmat999.github.io/serverless-rag-demo/5-cleanup/5.2-cognito/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

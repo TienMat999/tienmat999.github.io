@@ -1,118 +1,118 @@
 [
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/1-prerequisites/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/1-prerequisites/",
 	"title": "Chuẩn bị",
 	"tags": [],
 	"description": "",
 	"content": "Chuẩn bị Một tài khoản AWS Bạn nên có quyền truy cập vào các mô hình Anthropic Claude-3 Haiku/Sonnet trên Amazon Bedrock. Đối với RAG, bạn nên có quyền truy cập (ít nhất) vào mô hình Cohere English Embed trên Amazon Bedrock Region có hỗ trợ Amazon Bedrock Region có hỗ trợ Amazon OpenSearch serverless (AOSS) Các dịch vụ quen thuộc AWS IAM AWS Lambda Amazon API Gateway Amazon OpenSearch serverless Các workshops nên thực hiện qua Creating your first AWS account Administration of access rights with AWS IAM (Identity and Access Management) Book store - Serverless Book store Intro - Writing first functions Serverless - Build Frontend to call API Gateway Serverless - Authentication with Amazon Cognito "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/5-cleanup/5.1-cloudformation/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/5-cleanup/5.1-cloudformation/",
 	"title": "CloudFormation",
 	"tags": [],
 	"description": "",
 	"content": " Truy cập AWS Console, tìm dịch vụ CloudFormation Tại side bar, chọn Stack, chọn stack cần xoá, nhấn Delete Tiếp tục nhấn Delete để xác nhận xoá stack Dựa vào các bước hướng dẫn trên, xoá lần lượt theo thứ tự các stack sau:\nAppRunnerHostingdevStack ApiGwLlmsLambdadevStack LlmsWithServerlessRagdevStack CDKToolkit Xoá lần lượt theo thứ tự nhé, không cần quan tâm các stack Nested (vì các stack Nested sẽ tự động xoá theo stack chính)\nTiếp tục, chúng ta sẽ dọn dẹp tài nguyên cho dịch vụ Amazon Cognito.\n"
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/",
 	"title": "Serverless RAG demo",
 	"tags": [],
 	"description": "",
 	"content": "Giải pháp RAG và quy trình xây dựng agent có khả năng mở rộng với Amazon Bedrock và dịch vụ serverless Amazon Opensearch Tổng quan Sự phổ biến của AI đang được thúc đẩy bởi các mô hình AI tạo sinh có khả năng tạo ra nội dung giống con người. Tuy nhiên, các mô hình nền tảng này được đào tạo trên dữ liệu chung nên kém hiệu quả cho các tác vụ chuyên biệt. Đó là lý do tầm quan trọng của Tạo sinh Tăng cường Truy vấn (RAG). RAG cho phép bổ sung prompt bằng dữ liệu bên ngoài liên quan để có kết quả chuyên biệt hơn. Với RAG, tài liệu và truy vấn được chuyển đổi thành embedding, so sánh để tìm ngữ cảnh liên quan, và ngữ cảnh đó được thêm vào prompt gốc trước khi đưa vào mô hình ngôn ngữ lớn. Thư viện kiến thức có thể được cập nhật bất đồng bộ để cung cấp dữ liệu bên ngoài phù hợp nhất cho việc tăng cường prompt.\nAmazon OpenSearch Serverless (AOSS) cung cấp công cụ vector để lưu trữ embedding cho tìm kiếm tương đồng nhanh hơn. Công cụ vector này cung cấp khả năng tìm kiếm tương đồng đơn giản, có khả năng mở rộng và hiệu suất cao trong Amazon OpenSearch Serverless, giúp dễ dàng xây dựng ứng dụng AI tạo sinh mà không cần quản lý cơ sở hạ tầng cơ sở dữ liệu vector bên dưới.\nWorkshop này cung cấp giải pháp AI tạo sinh sẵn sàng cho môi trường sản xuất, dễ dàng triển khai với các tính năng sau:\nTrò chuyện với tài liệu Hợp tác multi-agent Phân tích cảm xúc Nhận dạng ký tự quang học (OCR) Ẩn thông tin cá nhân Kiến trúc Tổng quan kiến trúc Vận hành xuất sắc Demo Serverless RAG đẩy các chỉ số đo lường đến Amazon CloudWatch ở nhiều giai đoạn khác nhau để cung cấp khả năng quan sát vào cơ sở hạ tầng; các hàm Lambda, dịch vụ AI, bucket Amazon S3 và các thành phần còn lại của giải pháp. Tích hợp liên tục và phân phối liên tục (CI/CD) và triển khai cơ sở hạ tầng được quản lý trong mã thông qua AWS App Runner. Bảo mật Người dùng ứng dụng giao diện thiết kế nội dung được xác thực và ủy quyền với Amazon Cognito. Tất cả các giao tiếp giữa các dịch vụ sử dụng vai trò AWS Identity and Access Management (IAM). Tất cả các vai trò được sử dụng bởi giải pháp đều tuân theo quyền truy cập tối thiểu. Nghĩa là, nó chỉ chứa các quyền tối thiểu cần thiết để dịch vụ có thể hoạt động đúng. Giao tiếp với người dùng cuối sử dụng Amazon API Gateway và được xử lý bởi Amazon Cognito. Tất cả các lưu trữ dữ liệu bao gồm các bucket Amazon S3 đều có mã hóa khi được lưu trữ. Độ tin cậy Giải pháp sử dụng các dịch vụ Serverless của AWS sẵn sàng bất cứ khi nào có thể (ví dụ như Lambda, API Gateway, Amazon S3 và Amazon OpenSearch Serverless) để đảm bảo khả năng sẵn sàng cao và khôi phục từ lỗi dịch vụ. Giải pháp bảo vệ chống lại các lỗi định nghĩa máy trạng thái bằng cách thực hiện các bài kiểm tra tự động trên giải pháp. Hiệu quả về hiệu suất Như đã đề cập trước đó, giải pháp sử dụng kiến trúc serverless xuyên suốt giải pháp này. Giải pháp có thể được triển khai ở bất kỳ khu vực nào hỗ trợ các dịch vụ AWS trong giải pháp này như: AWS Lambda, Amazon API Gateway, AWS S3, Amazon OpenSearch Services, Amazon Bedrock và Amazon SageMaker. Tối ưu hóa chi phí Giải pháp sử dụng kiến trúc serverless, do đó, khách hàng chỉ phải trả tiền cho những gì họ sử dụng. Lớp tính toán mặc định là AWS Lambda, vì vậy nó cung cấp khả năng thanh toán theo mức sử dụng. Các chỉ mục Amazon OpenSearch Serverless được chọn để giảm chi phí thông lượng cho các truy vấn. Tính bền vững Giải pháp sử dụng các dịch vụ được quản lý và serverless để giảm thiểu tác động môi trường của các dịch vụ backend. Một thành phần quan trọng cho tính bền vững được cung cấp bởi giải pháp là tối đa hóa việc sử dụng các dịch vụ AI của AWS. Thiết kế Serverless của giải pháp (sử dụng Lambda và Amazon OpenSearch Serverless) và việc sử dụng các dịch vụ được quản lý (chẳng hạn như AWS App Runner) nhằm mục đích giảm dấu chân carbon so với dấu chân carbon của các máy chủ on-premises hoạt động liên tục.\nNội dung Chuẩn bị Triển khai giải pháp vào tài khoản AWS bằng AWS Cloudshell (Nâng cao) Sử dụng cơ sở kiến thức Amazon Bedrock có sẵn "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/4-advanced/4.1-createknowledgebase/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/4-advanced/4.1-createknowledgebase/",
 	"title": "Tạo cơ sở kiến thức Amazon Bedrock",
 	"tags": [],
 	"description": "",
 	"content": " Truy cập AWS Console, tìm dịch vụ Amazon Bedrock Tại side bar, chọn Knowledge bases, sau đó nhấn chọn Create knowledge base Đặt tên cho cơ sở kiến thức (tuỳ chọn) Tại phần Choose data source, chọn Web Crawler, nhấn Next Đặt tên cho data source (tuỳ chọn). Tại phần Source URLs, nhập vào https://gohugo.io/documentation/, nhấn Next Tại phần Embeddings model, chọn Embed Multilingual v3 - By Cohere, nhấn Next Xem lại các thông tin đã thiết lập, nhấn Create knowledge base Sau khi cơ sở kiến thức được tạo xong, nhấn Go to data sources Chọn Data source hiện có, sau đó nhấn Sync Quá trình đồng bộ hoá dữ liệu sẽ diễn ra một lúc, nhanh chậm tuỳ vào nguồn dữ liệu đã cung cấp.\nSau khi hoàn tất quá trình đồng bộ dữ liệu, chúng ta sẽ tiến hành test thử cơ sở kiến thức. Nhấn Select model Chọn Model providers là Anthropic Chọn model Claude 3.5 Sonnet Nhấn Apply Nhập câu hỏi và kiểm tra câu trả lời Quá trình tạo cơ sở kiến thức đã hoàn tất. Chúng ta sẽ note lại các thông tin về Embeddings model, Collection ARN và Vector index name "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/2-deploy/2.1-createadminuser/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/2-deploy/2.1-createadminuser/",
 	"title": "Tạo Người dùng Quản trị để triển khai stack",
 	"tags": [],
 	"description": "",
 	"content": "Phần 1 - Tạo người dùng IAM với quyền Quản trị viên (TÙY CHỌN: Nếu bạn đã có vai trò Quản trị viên, bạn có thể bỏ qua bước này) Tìm kiếm dịch vụ IAM trên Bảng điều khiển AWS và truy cập vào IAM Dashboard Nhấp vào tab Roles dưới mục Access management và nhấp vào Create role Chọn AWS Account và nhấp Next Trong phần permissions, chọn AdministratorAccess Đặt tên và mô tả cho role, ví dụ: Deploy-Admin và nhấp vào Create role Bây giờ bạn có thể đảm nhận role này và tiến hành triển khai stack. Nhấp vào Switch role Cung cấp display name tuỳ ý và nhấp vào Switch Role Tiếp tục đến bước CloudShell "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/5-cleanup/5.2-cognito/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/5-cleanup/5.2-cognito/",
 	"title": "Amazon Cognito",
 	"tags": [],
 	"description": "",
 	"content": " Truy cập AWS Console, tìm dịch vụ Cognito Tìm user pool có tên rag-llm-user-pool-*, nhấn Delete Tiếp tục, chúng ta sẽ dọn dẹp tài nguyên cho dịch vụ Amazon S3.\n"
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/4-advanced/4.2-applyknowledgebase/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/4-advanced/4.2-applyknowledgebase/",
 	"title": "Áp dụng cơ sở kiến thức vào Serverless RAG demo",
 	"tags": [],
 	"description": "",
 	"content": " Lấy các thông tin về Embeddings model, Collection ARN và Vector index name được sử dụng bởi cơ sở kiến thức hiện có trên Bedrock Truy cập AWS Console, tìm dịch vụ Amazon OpenSearch Truy cập Amazon OpenSearch Serverless và tìm kiếm bằng ARN để lấy Endpoint OpenSearch Tìm ID của model Embedding được sử dụng bởi Bedrock KB từ đây Truy cập AWS Console, tìm dịch vụ Lambda Tìm hàm lambda bedrock_rag_query_, sau đó tiến thành các bước thiết lập sau Chọn tab Configuration Chọn Environment variables Nhấn Edit Thiết lập như sau:\na. IS_BEDROCK_KB = yes\nb. OPENSEARCH_VECTOR_ENDPOINT = \u0026laquo;Endpoint Amazon OpenSearch Serverless của Bedrock KB hiện có\u0026raquo; (không bao gồm https://)\nc. EMBED_MODEL_ID = \u0026laquo;ID Mô hình Embedding được sử dụng bởi Bedrock KB hiện có\u0026raquo;\nd. VECTOR_INDEX_NAME = \u0026laquo;VECTOR_INDEX được sử dụng bởi Bedrock KB hiện có\u0026raquo;\nSau đó nhấn Save Lấy ARN của Lambda role Chọn tab Configuration Chọn Permissions Nhấn vào đường dẫn tại Role name Tại giao diện role, note lại ARN của role đó Quay lại tab Amazon OpenSearch tại bước 3. Tại phần Data access, truy cập vào đường dẫn Associated policy, sau đó nhấn Edit Chọn Add principals, nhấn IAM users and roles Cung cấp ARN của role đã note ở bước 7, sau đó nhấn Save Hoàn tất Bây giờ hãy thử Document Chat trên giao diện người dùng, nó sẽ truy vấn từ cơ sở kiến thức Amazon Bedrock. "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/2-deploy/2.2-deployragbasedsolution/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/2-deploy/2.2-deployragbasedsolution/",
 	"title": "Triển khai Giải pháp dựa trên RAG",
 	"tags": [],
 	"description": "",
 	"content": "Phần 2 - Triển khai Giải pháp dựa trên RAG này (Các lệnh dưới đây nên được thực hiện trong khu vực triển khai) Chuyển sang vai trò Admin. Tìm kiếm dịch vụ CloudShell trên AWS Console và làm theo các bước dưới đây để sao chép kho lưu trữ github Sao chép kho lưu trữ serverless-rag-demo từ aws-samples bằng Git git clone https://github.com/aws-samples/serverless-rag-demo.git Di chuyển đến thư mục chứa các tệp đã tải xuống. cd serverless-rag-demo Chạy tập lệnh bash để tạo giải pháp dựa trên RAG. Truyền môi trường và khu vực để triển khai. Môi trường có thể là dev, qa, sandbox bằng cách chạy các lệnh khác nhau như sh creator.sh dev, sh creator.sh qa hoặc sh creator.sh sandbox (mặc định là dev). (Xem Điều kiện tiên quyết để triển khai đến khu vực chính xác.) sh creator.sh Nhập 1 để chọn khu vực N.Virginia Nhập 1 để chọn tùy chọn Triển khai động cơ vector Amazon OpenSearch Serverless cho RAG. Nhấn Enter để tiếp tục triển khai ngăn xếp hoặc Ctrl + C để thoát Giao diện người dùng được lưu trữ trên AppRunner. Liên kết đến AppRunner có thể được tìm thấy trong CloudShell sau khi quá trình thực thi tập lệnh hoàn tất, hoặc bạn cũng có thể truy cập dịch vụ AppRunner trên AWS Console và lấy URL https. Giao diện người dùng được xác thực thông qua Amazon Cognito, do đó lần đầu tiên bạn sẽ phải đăng ký và sau đó đăng nhập vào ứng dụng Trên trang Amazon Bedrock, kích hoạt quyền truy cập vào các mô hình dưới đây "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/2-deploy/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/2-deploy/",
 	"title": "Triển khai giải pháp vào tài khoản AWS bằng AWS Cloudshell",
 	"tags": [],
 	"description": "",
 	"content": "Nội dung Tạo Người dùng Quản trị để triển khai stack Triển khai Giải pháp dựa trên RAG (Nâng cao) Sử dụng cơ sở kiến thức Amazon Bedrock có sẵn "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/5-cleanup/5.3-s3/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/5-cleanup/5.3-s3/",
 	"title": "Amazon S3",
 	"tags": [],
 	"description": "",
 	"content": " Truy cập AWS Console, tìm dịch vụ S3 Tìm S3 Bucket có tên cdk-*-assets-*, nhấn Empty Xác nhận làm trống bucket Sau đó nhấn delete bucket configuration Xác nhận xoá bucket Tiếp tục, chúng ta sẽ dọn dẹp cơ sở kiến thức tại dịch vụ Amazon Bedrock.\n"
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/3-explore/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/3-explore/",
 	"title": "Khám phá các tính năng của giải pháp",
 	"tags": [],
 	"description": "",
 	"content": "Các tính năng Đăng nhập lần đầu Người dùng đăng nhập lần đầu, khi click vào các tính năng, ứng dụng sẽ yêu cầu đăng nhập hoặc tạo tài khoản mới. Thông tin tài khoản sẽ được lưu trữ mã hoá trong Amazon Cognito. Tài khoản người dùng sẽ được xác thực thông qua email. Chat với tài liệu/Quản lý tài liệu (đa ngôn ngữ) Đa tác nhân - Multi-Agent Phân tích cảm xúc trong văn bản Nhận diện ký tự quang học - OCR Ẩn giấu thông tin cá nhân "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/4-advanced/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/4-advanced/",
 	"title": "(Nâng cao) Sử dụng cơ sở kiến thức Amazon Bedrock có sẵn",
 	"tags": [],
 	"description": "",
 	"content": "Phần 4 này sẽ hướng dẫn tạo một cơ sở kiến thức Amazon Bedrock với nguồn dữ liệu từ trang web https://gohugo.io/documentation/ - đây là trang web ghi tài liệu về Hugo - nền tảng để tạo ra workshop này.\nNội dung Tạo cơ sở kiến thức Amazon Bedrock Áp dụng cơ sở kiến thức vào Serverless RAG demo "
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/5-cleanup/5.4-knowledgebase/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/5-cleanup/5.4-knowledgebase/",
 	"title": "Amazon Bedrock Knowledge base",
 	"tags": [],
 	"description": "",
 	"content": " Truy cập AWS Console, tìm dịch vụ Amazon Bedrock Tại side bar chọn Knowledge bases, chọn cơ sở kiến thức cần xoá, nhấn Delete Xác nhận xoá cơ sở kiến thức Tiếp tục, chúng ta sẽ dọn dẹp role tại dịch vụ Identity and Access Management (IAM).\n"
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/5-cleanup/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/5-cleanup/",
 	"title": "Dọn dẹp tài nguyên",
 	"tags": [],
 	"description": "",
 	"content": "Phần 5 này sẽ hướng dẫn dọn dẹp tài nguyên theo cho workshop này. Để quá trình dọn dẹp hiệu quả, vui lòng làm theo thứ tự, bắt đầu từ dịch vụ CloudFormation.\n"
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/5-cleanup/5.5-iam/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/5-cleanup/5.5-iam/",
 	"title": "Identity and Access Management (IAM)",
 	"tags": [],
 	"description": "",
 	"content": " Truy cập AWS Console, tìm dịch vụ IAM Tại side bar chọn Roles, tìm role DeployAdmin đã tạo từ phần 2.1, chọn role đó, nhấn Delete Xác nhận xoá role Hoàn tất quá trình dọn dẹp tài nguyên. Kết thúc workshop.\n"
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/categories/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://minhtien088.github.io/serverless-rag-demo/vi/tags/",
+	"uri": "http://tienmat999.github.io/serverless-rag-demo/vi/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

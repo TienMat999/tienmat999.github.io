@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deploying the Solution to your AWS account with AWS Cloudshell on Serverless RAG demo</title>
-    <link>http://minhtien088.github.io/serverless-rag-demo/2-deploy/</link>
+    <link>http://tienmat999.github.io/serverless-rag-demo/2-deploy/</link>
     <description>Recent content in Deploying the Solution to your AWS account with AWS Cloudshell on Serverless RAG demo</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://minhtien088.github.io/serverless-rag-demo/2-deploy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tienmat999.github.io/serverless-rag-demo/2-deploy/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
